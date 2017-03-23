@@ -7,3 +7,10 @@ spring:
       uri: http://cloud.configserver:8888/
       name: circuit-breaker
       enabled: true
+      
+endpoints:
+  shutdown:
+    #No auth  protected
+    sensitive: false
+    #Enable shutdown endpoint
+    enabled: true
