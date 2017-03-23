@@ -1,0 +1,9 @@
+  
+spring:
+  application:
+    name: circuit-breaker
+  cloud:
+    config:
+      uri: http://cloud.configserver:8888/
+      name: circuit-breaker
+      enabled: true
